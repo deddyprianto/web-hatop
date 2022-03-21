@@ -75,7 +75,7 @@ const Slideshow = () => {
               <p className="italic text-lg lg:text-lg mt-8 text-center">
                 {slideImage.user}
               </p>
-              <p className="italic text-sm lg:text-lg text-center">
+              <p className="italic text-sm lg:text-lg text-center !text-gray-400">
                 {slideImage.jabatan}
               </p>
             </div>

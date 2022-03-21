@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Gradient from "rgt";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/outline";
-import { Diamond, Donut, SquareDonut } from "react-awesome-shapes";
+import { Diamond, Donut, SquareDonut, CircleGrid } from "react-awesome-shapes";
 import Image from "next/image";
 import ImageOne from "Assets/deve1.jpg";
 import ImageTwo from "Assets/deve2.jpg";
@@ -25,12 +25,12 @@ const HomePage = () => {
     <div className="w-full overflow-y-auto scroll-smooth">
       <div
         data-aos="fade-up"
-        className="w-full lg:h-1/2 h-1/2 flex flex-col justify-center lg:justify-evenly items-center font-bold text-gray-100 relative"
+        className="w-full h-2/3 flex flex-col justify-center lg:justify-evenly items-center font-bold text-gray-100 relative"
       >
-        <h1 className="text-5xl lg:text-8xl text-center p-1">
+        <h1 className="text-5xl lg:text-8xl text-center ">
           We Give The Best For
         </h1>
-        <h1 className="text-5xl lg:text-8xl mt-5">
+        <h1 className="text-5xl lg:text-8xl mt-4">
           Your{" "}
           <span>
             <Gradient dir="left-to-right" from="#F06BF2" to="#F06BF2">
@@ -40,50 +40,57 @@ const HomePage = () => {
         </h1>
         <Diamond
           color="linear-gradient(135deg, #F06BF2, #F06BF2)"
-          size={["30px", "100px", "100px", "40px"]}
+          size={["30px", "100px", "100px", "50px"]}
           zIndex={2}
           left={["5%", "10%", "10%", "10%"]}
           top={["5%", "15%", "40%", "10%"]}
         />
         <Diamond
           color="linear-gradient(135deg, #F06BF2, #F06BF2)"
-          size={["40px", "60px", "60px", "40px"]}
+          size={["40px", "60px", "60px", "60px"]}
           zIndex={2}
           right={["5%", "20%", "20%", "20%"]}
-          bottom={["5%", "15%", "30%", "10%"]}
+          bottom={["5%", "15%", "30%", "12%"]}
         />
         <Donut
           color="#F06BF2"
-          size={["120px", "100px", "100px", "150px"]}
-          width="30px"
+          size={["120px", "100px", "100px", "100px"]}
+          width="20px"
           zIndex={2}
-          left={["-13%", "26%", "30%", "-5%"]}
-          bottom={["0", "1%", "1%", "1%"]}
+          left={["-14%", "26%", "30%", "15%"]}
+          bottom={["0", "1%", "1%", "15%"]}
         />
         <SquareDonut
-          size={["50px", "110px", "110px", "140px"]}
+          size={["50px", "110px", "110px", "90px"]}
           zIndex={2}
           color="#F06BF2"
-          right={["2%", "1%", "10%", "6%"]}
-          top={["5%", "4%", "30%", "10%"]}
+          right={["5%", "1%", "10%", "6%"]}
+          top={["19%", "4%", "30%", "10%"]}
         />
       </div>
       {/* button Contact */}
       <div
-        className="w-full flex justify-center items-center h-[15%]"
+        className="w-full flex justify-center items-center h-1/3"
         data-aos="fade-up"
       >
-        <button className="rounded-lg w-32 h-14 text-gray-100  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <button className="text-sm rounded-lg w-32 h-14 text-gray-200  bg-gradient-to-r from-indigo-500 to-pink-500">
           Contact Us
         </button>
       </div>
       {/* column baris */}
-      <div
-        className="w-full text-gray-100 h-1/2 flex flex-col"
-        data-aos="fade-up"
-      >
-        <h1 className="text-center text-2xl mb-10 ">About Us</h1>
-        <div className="grid grid-cols-2 grid-rows-1 ">
+      <div className="w-full text-gray-100 h-3/5 flex flex-col mt-10">
+        <div className="w-full relative flex justify-center items-center h-1/2">
+          <Donut
+            color="#F06BF2"
+            size={["100px", "100px", "100px", "200px"]}
+            width="20px"
+            zIndex={2}
+            left={["-15%", "26%", "30%", "-8%"]}
+            top={["1%", "15%", "15%", "1%"]}
+          />
+          <h1 className="text-center text-2xl">About Us</h1>
+        </div>
+        <div className="grid grid-cols-2 grid-rows-1 mt-5">
           <div className="w-full text-gray-100 flex flex-col items-center justify-center">
             <div className="w-full lg:w-1/2 lg:p-10 p-2 text-gray-200">
               <h1 className="mb-3 text-xl lg:text-4xl">Who Are you ?</h1>
@@ -92,13 +99,13 @@ const HomePage = () => {
                 Medan and has several teams who are experts in their fields and
                 have worked on several projects
               </p>
-              <button className="mt-2 rounded-lg text-sm lg:text-lg p-2 lg:w-32 lg:h-14 h-10 text-gray-100  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+              <button className="mt-2 rounded-lg text-sm lg:text-lg p-2 lg:w-32 lg:h-14  text-gray-100 bg-gradient-to-r from-cyan-500 to-blue-500">
                 Read More
               </button>
             </div>
           </div>
           <div className="w-full flex flex-col justify-evenly items-center h-full">
-            <div className="flex flex-col justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-center w-full relative">
               <h1 className="text-5xl">12</h1>
               <p className="text-xl">Clients</p>
             </div>
@@ -204,14 +211,14 @@ const HomePage = () => {
         </div>
       </div>
       {/* Testimonial */}
-      <div className="w-full flex flex-col justify-evenly items-center h-4/5 mt-24 lg:mt-0">
+      <div className="w-full flex flex-col justify-evenly items-center h-4/5 mt-24">
         <h1 className="lg:text-3xl text-lg text-gray-100">Testimonial</h1>
         <div className="w-4/5 ">
           <Slideshow />
         </div>
       </div>
       {/* contac US */}
-      <div className="w-full flex flex-col justify-center itemcenter h-1/2">
+      <div className="w-full flex flex-col justify-center itemcenter lg:h-1/2 h-4/5">
         <div className="flex flex-col justify-center items-center w-full text-gray-100">
           <h1 className="text-lg lg:text-2xl">Contact Us</h1>
           <p className="text-sm lg:text-lg">
