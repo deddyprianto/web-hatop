@@ -23,7 +23,10 @@ const Navbar = () => {
         </div>
         <div className="w-full flex justify-start lg:justify-center items-center col-span-4 lg:col-span-1">
           <Image src={Logo} width={40} height={40} alt="Logo Perusahaan" />
-          <h1 className="text-gray-100 text-lg uppercase font-bold">Hatop</h1>
+          <div className="ml-2 ">
+            <h1 className="text-gray-100 text-lg uppercase font-bold">Hatop</h1>
+            <p className="text-gray-100 text-sm">Harapan Teknologi Perkasa</p>
+          </div>
         </div>
         <ul className="w-full hidden lg:flex justify-evenly items-center text-gray-300">
           <li>About Us</li>

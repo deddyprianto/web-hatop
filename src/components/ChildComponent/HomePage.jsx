@@ -47,7 +47,7 @@ const HomePage = () => {
         />
         <Diamond
           color="linear-gradient(135deg, #F06BF2, #F06BF2)"
-          size={["40px", "60px", "60px", "60px"]}
+          size={["30px", "60px", "60px", "60px"]}
           zIndex={2}
           right={["5%", "20%", "20%", "20%"]}
           bottom={["5%", "15%", "30%", "12%"]}
@@ -65,7 +65,7 @@ const HomePage = () => {
           zIndex={2}
           color="#F06BF2"
           right={["5%", "1%", "10%", "6%"]}
-          top={["19%", "4%", "30%", "10%"]}
+          top={["10%", "4%", "30%", "10%"]}
         />
       </div>
       {/* button Contact */}
