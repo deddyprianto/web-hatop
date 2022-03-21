@@ -1,6 +1,7 @@
 import "styles/globals.css";
+import "styles/customAnimation.css";
 import { StateProvider } from "StateProvide/StateProvider";
-import { reducer, initialState } from "Reducer";
+import { reducer, initialState } from "Reducer/reducer";
 import Parent from "components/ParentComponent/Parent";
 
 function MyApp({ Component, pageProps }) {

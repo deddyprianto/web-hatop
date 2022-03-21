@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "aos": "^3.0.0-beta.6",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-awesome-shapes": "^0.1.12",
     "react-dom": "17.0.2",
+    "react-slideshow-image": "^3.7.0",
     "rgt": "^1.0.7"
   },
   "devDependencies": {
