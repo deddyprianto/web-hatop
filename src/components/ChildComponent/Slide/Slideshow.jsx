@@ -6,17 +6,16 @@ import Ceo from "Assets/CEO.jpg";
 const slideImages = [
   {
     caption:
-      "Hatop adalah organisasi baru yang pernah saya kenal dan saya akan serius membantu masyarakat dalam digitalisasi",
-    user: "Deddy Prianto, ",
-    jabatan: "Project Manager at HATOP",
-  },
-  {
-    caption:
       "Organisasi Hatop adalah organisasi terbaik yang pernah saya temukan, karena saya banyak belajar dari sana bukan hanya teknologi melainkan banyak hal lain nya",
     user: "Prayoga S,",
     jabatan: "CEO at HATOP",
   },
-
+  {
+    caption:
+      "Hatop adalah organisasi baru yang pernah saya kenal dan saya akan serius membantu masyarakat dalam digitalisasi",
+    user: "Deddy Prianto, ",
+    jabatan: "Project Manager at HATOP",
+  },
   {
     caption:
       "Best Of The Year ,Hatop adalah organisasi baru yang pernah saya kenal dan saya akan serius membantu masyarakat dalam digitalisasi ",
