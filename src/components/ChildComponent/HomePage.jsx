@@ -3,10 +3,10 @@ import Gradient from "rgt";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/outline";
 import { Diamond, Donut, SquareDonut } from "react-awesome-shapes";
 import Image from "next/image";
-import ImageOne from "Assets/annie-spratt-QckxruozjRg-unsplash.jpg";
-import ImageTwo from "Assets/nubelson-fernandes-gTs2w7bu3Qo-unsplash.jpg";
-import ImageThree from "Assets/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg";
-import ImageFour from "Assets/tudor-baciu-vc3iVL_znJ8-unsplash.jpg";
+import ImageOne from "Assets/deve1.jpg";
+import ImageTwo from "Assets/deve2.jpg";
+import ImageThree from "Assets/deve3.jpg";
+import ImageFour from "Assets/deve4.jpg";
 import Wa from "Assets/wa.png";
 import Gmail from "Assets/gmail.png";
 import Tele from "Assets/tele.png";
@@ -61,7 +61,7 @@ const HomePage = () => {
           bottom={["1%", "1%", "1%", "1%"]}
         />
         <SquareDonut
-          size={["70px", "110px", "110px", "140px"]}
+          size={["50px", "110px", "110px", "140px"]}
           zIndex={2}
           color="#F06BF2"
           right={["5%", "1%", "10%", "6%"]}
