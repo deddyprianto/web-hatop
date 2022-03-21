@@ -110,7 +110,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* column services */}
-      <div className="w-full text-gray-100 h-1/2 flex flex-col justify-center items-center">
+      <div className="w-full text-gray-100 h-[70%]  flex flex-col justify-center items-center">
         <h1 className="text-gray-100 text-center text-2xl mb-4">Services</h1>
         <div className="w-full grid grid-cols-4">
           <div className="w-full flex flex-col justify-center items-center ">
@@ -118,7 +118,7 @@ const HomePage = () => {
               1
             </div>
             <h1 className="mt-2 text-center text-sm lg:text-lg">
-              Jasa Pembuatan Aplikasi
+              Build Web Apps
             </h1>
           </div>
           <div className="w-full flex flex-col justify-center items-center ">
@@ -126,7 +126,7 @@ const HomePage = () => {
               2
             </div>
             <h1 className="mt-2 text-center text-sm lg:text-lg">
-              Aplikasi Android/IOS
+              Build Android/IOS
             </h1>
           </div>
           <div className="w-full flex flex-col justify-center items-center ">
@@ -134,7 +134,7 @@ const HomePage = () => {
               3
             </div>
             <h1 className="mt-2 text-center text-sm lg:text-lg">
-              Sistem Informasi & Aplikasi
+              Information System
             </h1>
           </div>
           <div className="w-full flex flex-col justify-center items-center ">
@@ -142,7 +142,7 @@ const HomePage = () => {
               4
             </div>
             <h1 className="mt-2 text-center text-sm lg:text-lg">
-              Dan masih banyak Lagi...
+              And Much many more...
             </h1>
           </div>
         </div>
